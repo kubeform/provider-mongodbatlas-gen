@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "mongodbatlas",
 		ProviderData:         mongodbatlas.Provider(),
 		ProviderImportPath:   "github.com/mongodb/terraform-provider-mongodbatlas/mongodbatlas",
+		ProviderConfig:       "mongodb/mongodbatlas",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
