@@ -43,6 +43,7 @@ func main() {
 		ProviderData:         mongodbatlas.Provider(),
 		ProviderImportPath:   "github.com/mongodb/terraform-provider-mongodbatlas/mongodbatlas",
 		ProviderConfig:       "mongodb/mongodbatlas",
+		TfPluginVersion:      "v2.8.0",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
